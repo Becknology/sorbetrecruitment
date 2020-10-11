@@ -1,0 +1,234 @@
+.srbt-hire-us:before{
+    -webkit-transition:-webkit-transform cubic-bezier(.445,.05,.55,.95) 1.5s 150ms;
+    -moz-transition:-moz-transform cubic-bezier(.445,.05,.55,.95) 1.5s 150ms;
+    transition:transform cubic-bezier(.445,.05,.55,.95) 1.5s 150ms;
+	-webkit-transform: translateX(0) translateY(0) scale(1.4);
+    -moz-transform: translateX(0) translateY(0) scale(1.4);
+    -ms-transform: translateX(0) translateY(0) scale(1.4);
+    -o-transform: translateX(0) translateY(0) scale(1.4);
+    transform: translateX(0) translateY(0) scale(1.4);
+    -webkit-transform-origin:left bottom;
+    -moz-transform-origin:left bottom;
+    -ms-transform-origin:left bottom;
+    -o-transform-origin:left bottom;
+    transform-origin:left bottom;
+    content:"";
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    background-image:url(../img/hire-us-bg-4096.jpg);
+    background-size:cover;
+    background-position:left bottom;
+    background-repeat:no-repeat
+}
+.srbt-hire-us #form-views {
+    position: absolute;
+    width: 100%;
+    min-height: 100vh;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 25px;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 1500px;
+    margin: auto;
+}
+.srbt-hire-us #srbt-form-start {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    box-pack: start;
+    -webkit-justify-content: flex-start;
+    -moz-justify-content: flex-start;
+    -ms-justify-content: flex-start;
+    -o-justify-content: flex-start;
+    justify-content: flex-start;
+    -ms-flex-pack: start;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    -o-transform-origin: center;
+    transform-origin: center;
+    width: 100%;
+    min-height: 100%;
+    padding-bottom: 125px;
+    text-align: center;
+}
+.srbt-hire-us h2 {
+    font-size: 18px;
+    color: #fff;
+	font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-bottom: 1px solid #8cc63f;
+    line-height: 24px;
+}
+.srbt-hire-us .field_list {
+    margin: auto;
+    display: block;
+    width: 100%;
+	font-size: 30px;
+    line-height: 55px;
+    color: #fff;
+}
+
+.field_list input[type=text], .field_list input[type=email], .field_list input[type=tel]{
+    background: 0 0;
+    border-bottom: 2px solid #8cc63f;
+    color: #8cc63f;
+    min-width: 350px;
+    max-width: 500px;
+    text-align: center;
+    word-break: break-word;
+    white-space: pre-wrap;
+	-webkit-transition: all 150ms cubic-bezier(.645,.045,.355,1);
+    -moz-transition: all 150ms cubic-bezier(.645,.045,.355,1);
+    transition: all 150ms cubic-bezier(.645,.045,.355,1);
+    font-size: 27px;
+    line-height: 30px;
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+::-webkit-input-placeholder {
+  color: #8cc63f;
+}
+:-ms-input-placeholder { 
+  color: #8cc63f;
+}
+::placeholder {
+  color: #8cc63f;
+}
+.field_list input[type=text]:focus, .field_list input[type=email]:focus, .field_list input[type=tel]:focus {
+    border-bottom: 2px solid #8cc63f;
+}
+.field_list input[type=tel]{
+	min-width: 400px;
+    max-width: 400px;
+}
+.submitbutton {
+    margin-top: 30px;
+}
+.submitbutton button {
+    outline: none;
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+    padding: 5px 13px;
+    border-radius: 5px;
+    cursor: pointer;
+	-webkit-transition: all 150ms cubic-bezier(.645,.045,.355,1);
+    -moz-transition: all 150ms cubic-bezier(.645,.045,.355,1);
+    transition: all 150ms cubic-bezier(.645,.045,.355,1);
+	margin-bottom: 20px;
+}
+.submitbutton button:hover {
+    background: #8cc63f;
+	color: #fff;
+}
+#footer {
+    position: absolute;
+    bottom: 0px;
+}
+#footer .footer-link, #footer .table, #footer .table-cell{
+	height: auto;
+}
+#footer .table-cell{
+	padding: 30px 0;
+}
+#footer .footer-link:hover{
+	background: #000;
+}
+#footer h4 {
+    color: #8cc63f;
+    position: relative;
+    top: 10px;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+@media (max-width:767px){
+	.srbt-hire-us .field_list{
+		font-size: 15px;
+	}
+	.srbt-hire-us #form-views {
+		position: relative;
+		max-height: none;
+		min-height: 0;
+	}
+	#footer {
+		position: relative;
+	}
+	.srbt-hire-us #srbt-form-start {
+		padding-bottom: 50px;
+	}
+	.srbt-hire-us #form-views {
+		padding: 25px;
+	}
+	.field_list input[type=text], .field_list input[type=email], .field_list input[type=tel] {
+		font-size: 15px;
+		min-width: 0;
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	}
+	#footer .table{
+		padding: 10px 0 15px;
+	}
+	#footer .footer-link .right-arrow, #footer .footer-link:last-child h4 {
+		display: inline-block;
+		width: auto;
+		margin: 0 !important;
+		top: 0;
+		position: unset;
+	}
+	#footer .footer-link:last-child h4 {
+		top: -10px;
+		margin-right: 20px !important;
+		position: relative !important;
+	}
+	
+}
+
+@media (min-width: 661px) and (max-width:767px) {
+	.srbt-hire-us .field_list, .field_list input[type=text], .field_list input[type=email], .field_list input[type=tel] {
+		font-size: 22px;
+	}
+	.srbt-hire-us #form-views {
+		padding: 29px;
+	}
+	#footer .footer-link .right-arrow {
+		bottom: 33px;
+	}
+	
+}

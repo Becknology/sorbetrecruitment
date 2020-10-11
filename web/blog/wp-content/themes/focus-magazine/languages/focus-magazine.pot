@@ -1,0 +1,502 @@
+# Copyright (C) 2020 Gumtheme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Focus Magazine 1.1.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/focus-magazine\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-03-05T16:26:45+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: focus-magazine\n"
+
+#. Theme Name of the theme
+#: inc/admin/class-focus-html.php:277
+msgid "Focus Magazine"
+msgstr ""
+
+#. Theme URI of the theme
+msgid "https://gumthemes.com/wp/focus/"
+msgstr ""
+
+#. Description of the theme
+msgid "Focus Magazine is a modern responsive WordPress theme that lets you write articles and blog posts with ease. The Focus Magazine theme is excellent for a news, newspaper, magazine, publishing or other editorial websites. Focus Magazine is a easily customizable using WordPress theme customizer. Demo - https://gumthemes.com/demo/?theme=focus-gumtheme&ver=free"
+msgstr ""
+
+#. Author of the theme
+#: footer.php:36
+msgid "Gumtheme"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://gumthemes.com/"
+msgstr ""
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#: comments.php:33
+msgid "Join the Conversation"
+msgstr ""
+
+#: comments.php:35
+#: inc/template-tags.php:68
+msgid "Leave a comment"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:41
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:45
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:35
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Slide Menu"
+msgstr ""
+
+#: functions.php:65
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:66
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:118
+msgid "&laquo;"
+msgstr ""
+
+#: functions.php:119
+msgid "&raquo;"
+msgstr ""
+
+#: functions.php:177
+msgid "Homepage Header"
+msgstr ""
+
+#: functions.php:187
+msgid "Homepage Sidebar Left"
+msgstr ""
+
+#: functions.php:197
+msgid "Homepage Main"
+msgstr ""
+
+#: functions.php:207
+msgid "Homepage Sidebar Right"
+msgstr ""
+
+#: functions.php:217
+msgid "Homepage Footer"
+msgstr ""
+
+#: functions.php:227
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:238
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:247
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:256
+msgid "Footer 3"
+msgstr ""
+
+#: header.php:23
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:70
+#: header.php:199
+msgid "Type &amp; hit enter"
+msgstr ""
+
+#: inc/admin/class-focus-admin.php:34
+msgid "About"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:50
+msgid "Welcome to"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:54
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:56
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:58
+msgid "View PRO version"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:65
+msgid "Get Started"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:68
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:71
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:99
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:104
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:106
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/class-focus-html.php:107
+msgid "Customizer Settings"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:112
+#: inc/admin/class-focus-html.php:116
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:114
+msgid "How to setup pages. video tutorials."
+msgstr ""
+
+#: inc/admin/class-focus-html.php:122
+#: inc/admin/class-focus-html.php:126
+msgid "Support"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:124
+msgid "We are here to help you build an awesome website.<br/>Please get in touch if you have any questions."
+msgstr ""
+
+#: inc/admin/class-focus-html.php:132
+#: inc/admin/class-focus-html.php:137
+msgid "Leave a Review"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:134
+msgid "If you like the theme, please do leave a review.<br/>Review are really helpful for us."
+msgstr ""
+
+#: inc/admin/class-focus-html.php:153
+msgid "We recommend following plugins"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:157
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:160
+msgid "WP-PageNavi"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:163
+msgid "Yoast SEO"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:271
+msgid "Free vs Pro"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:272
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/admin/class-focus-html.php:276
+msgid "Features"
+msgstr ""
+
+#: inc/admin/class-focus-html.php:278
+msgid "Focus Magazine Pro"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "This is a settings section."
+msgstr ""
+
+#: inc/customizer.php:49
+msgid "Theme Color Scheme"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Category text"
+msgstr ""
+
+#: inc/customizer.php:94
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:111
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer.php:127
+msgid "Pinterest Link"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Youtube Link"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/customizer.php:176
+msgid "Social Share icons on Single post"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "&copy; 2020"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Copyright text"
+msgstr ""
+
+#: inc/template-tags.php:26
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:31
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:38
+#: inc/template-tags.php:60
+#: template-parts/content-single.php:13
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:40
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:62
+msgid "TAGS: %1$s"
+msgstr ""
+
+#: inc/template-tags.php:68
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:68
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:72
+msgid "Edit Post"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:13
+msgid "Header Grid Widget to display posts in grid format based on categories or tags. Please use it in Homepage Header"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:14
+msgid "Header Post Grid"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:143
+#: inc/widgets/homepage_header_slider.php:107
+#: inc/widgets/posts_grid_1.php:165
+#: inc/widgets/posts_grid_2.php:134
+#: inc/widgets/posts_grid_3.php:128
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:147
+#: inc/widgets/homepage_header_slider.php:111
+#: inc/widgets/posts_grid_1.php:169
+#: inc/widgets/posts_grid_2.php:138
+#: inc/widgets/posts_grid_3.php:132
+msgid "Select a Category:"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:149
+#: inc/widgets/homepage_header_slider.php:113
+#: inc/widgets/posts_grid_1.php:171
+#: inc/widgets/posts_grid_2.php:140
+#: inc/widgets/posts_grid_3.php:134
+msgid "All"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:162
+#: inc/widgets/homepage_header_slider.php:126
+#: inc/widgets/posts_grid_1.php:184
+#: inc/widgets/posts_grid_2.php:153
+#: inc/widgets/posts_grid_3.php:147
+msgid "Filter Posts by Tags (e.g. lifestyle):"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:167
+#: inc/widgets/homepage_header_slider.php:131
+#: inc/widgets/posts_grid_1.php:189
+#: inc/widgets/posts_grid_2.php:158
+#: inc/widgets/posts_grid_3.php:152
+msgid "Skip:"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:168
+#: inc/widgets/homepage_header_slider.php:132
+#: inc/widgets/posts_grid_1.php:190
+#: inc/widgets/posts_grid_2.php:159
+#: inc/widgets/posts_grid_3.php:153
+msgid "Posts"
+msgstr ""
+
+#: inc/widgets/homepage_header_grid.php:172
+#: inc/widgets/homepage_header_slider.php:136
+#: inc/widgets/posts_grid_1.php:194
+#: inc/widgets/posts_grid_2.php:163
+#: inc/widgets/posts_grid_3.php:166
+msgid "Ignore Sticky Posts"
+msgstr ""
+
+#: inc/widgets/homepage_header_slider.php:13
+msgid "Header Slider Widget to display posts in slider format based on categories or tags. Please use it in Homepage Header"
+msgstr ""
+
+#: inc/widgets/homepage_header_slider.php:14
+msgid "Header Post Slider"
+msgstr ""
+
+#: inc/widgets/posts_grid_1.php:13
+msgid "Posts block 1"
+msgstr ""
+
+#: inc/widgets/posts_grid_1.php:14
+msgid "Posts Grid 1"
+msgstr ""
+
+#: inc/widgets/posts_grid_1.php:198
+#: inc/widgets/posts_grid_2.php:167
+msgid "Show category name"
+msgstr ""
+
+#: inc/widgets/posts_grid_1.php:203
+#: inc/widgets/posts_grid_2.php:172
+#: inc/widgets/posts_grid_3.php:171
+msgid "Show date"
+msgstr ""
+
+#: inc/widgets/posts_grid_2.php:12
+msgid "Posts Grid block 2"
+msgstr ""
+
+#: inc/widgets/posts_grid_2.php:13
+msgid "Posts Grid 2"
+msgstr ""
+
+#: inc/widgets/posts_grid_3.php:16
+msgid "Posts with featured image"
+msgstr ""
+
+#: inc/widgets/posts_grid_3.php:17
+msgid "Posts Grid 3"
+msgstr ""
+
+#: inc/widgets/posts_grid_3.php:158
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/widgets/posts_grid_3.php:162
+msgid "Random Posts"
+msgstr ""
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr ""
+
+#. Template Name of the theme
+#: template-parts/content-single.php:15
+msgid "Home"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:23
+#: template-parts/content-single.php:62
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:30
+msgid "Edit"
+msgstr ""
+
+#: template-parts/content-single.php:70
+msgid "Author"
+msgstr ""
+
+#: template-parts/content.php:51
+msgid "Read More"
+msgstr ""

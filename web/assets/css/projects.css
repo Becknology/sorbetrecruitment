@@ -1,0 +1,110 @@
+iframe#BrzyHr_iframe {
+    width: 100%;
+}
+.main-header{
+    padding-left:12px;
+	font-size: 12px;
+    line-height: 28px;
+	text-align: center;
+	color: #121212;
+	font-family: TradeGothicLTStd-BdCn20, sans-serif;
+	text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.main-header:before{
+	content: '';
+    display:inline-block;
+    position:relative;
+    vertical-align:top;
+    top:0;
+    left:0;
+    margin-top:2px;
+	border:3px solid #7be1d8;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    border-radius:30px;
+    height:18px;
+    width:18px;
+    z-index:2;
+    opacity:0;
+    left:20%;
+    position:absolute;
+    -webkit-animation:pulsate 1s ease-out infinite;
+    -moz-animation:pulsate 1s ease-out infinite;
+    -o-animation:pulsate 1s ease-out infinite;
+    animation:pulsate 1s ease-out infinite;
+}
+@-webkit-keyframes pulsate{
+    0%{
+        -webkit-transform:scale(.1,.1);
+        opacity:0
+    }
+    50%{
+        opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1.2,1.2);
+        opacity:0
+    }
+}
+@-moz-keyframes pulsate{
+    0%{
+        -webkit-transform:scale(.1,.1);
+        opacity:0
+    }
+    50%{
+        opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1.2,1.2);
+        opacity:0
+    }
+}
+@-o-keyframes pulsate{
+    0%{
+        -webkit-transform:scale(.1,.1);
+        opacity:0
+    }
+    50%{
+        opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1.2,1.2);
+        opacity:0
+    }
+}
+@keyframes pulsate{
+    0%{
+        -webkit-transform:scale(.1,.1);
+        opacity:0
+    }
+    50%{
+        opacity:1
+    }
+    100%{
+        -webkit-transform:scale(1.2,1.2);
+        opacity:0
+    }
+}
+
+.filters-container {
+    text-align: center;
+}
+.filters-container select {
+    color: #000;
+    padding: 5px;
+    border: 1px solid #aaa;
+}
+.button {
+    background: #8cc63f;
+}
+.position-name a, .position-meta {
+    color: #121212;
+}
+.position-meta {
+    color: #d91a5d;
+}
+body {
+    color: #121212;
+}

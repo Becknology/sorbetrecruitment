@@ -1,0 +1,640 @@
+#services_main .bx-pager-custom .bx-pager-item a,.btn,a.btn{
+    -webkit-transition:.9s cubic-bezier(.18,1,.21,1);
+    -moz-transition:.9s cubic-bezier(.18,1,.21,1)
+}
+#services_main #services_main-slider .svg-wrapper .bottom-circle,#services_main #services_main-slider .svg-wrapper .shape{
+    fill:transparent;
+    border-bottom:5px solid #000;
+    transition:stroke-width 1s,stroke-dashoffset 1s,stroke-dasharray 1s,opacity 1s
+}
+#services_main{
+    margin:0;
+    display:block;
+    width:100%;
+    padding:0;
+    position:relative
+}
+#services_main #services_main-slider{
+    margin:0;
+    display:block;
+    width:100%;
+    padding:0;
+    position:relative;
+    background:0 0;
+    list-style:none
+}
+/********** About **********/
+#services_about{
+	margin: 0;
+    display: block;
+    padding: 0 10%;
+    z-index: 3;
+    height: 0;
+}
+#services_about .content{
+    padding:0
+}
+#services_about #about-inner{
+    padding:0;
+    height:972px
+}
+#services_about #about-inner .solid{
+    background-color:#ddd;
+    width:50%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:922px
+}
+#services_about #about-inner .photo{
+    background-color:#000;
+    width:50%;
+    position:absolute;
+    top:50px;
+    left:50%;
+    height:922px;
+    overflow:hidden
+}
+#services_about #about-inner .photo div.parallax-container{
+    -webkit-transition:1.5s cubic-bezier(.18,1,.21,1);
+    -moz-transition:1.5s cubic-bezier(.18,1,.21,1);
+    transition:1.5s cubic-bezier(.18,1,.21,1)
+}
+#services_about #about-inner .photo .bg-image{
+    background-color:transparent;
+    width:2560px;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    background-position:right bottom;
+    background-repeat:no-repeat;
+    background-size:2560px
+}
+#process-integrated-approach,#process-mindset,#what_we_do{
+    background-position:top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    min-height:auto
+}
+#services_about #about-inner .text{
+    width:100%;
+    height:972px;
+    background-color:transparent;
+    position:absolute;
+    z-index:2
+}
+#services_about #about-inner .text .about-btn{
+    position:absolute;
+    bottom:70px;
+    left:70px
+}
+#services_about #about-inner .text .about-btn h5{
+    color:#fff;
+    transition:.9s cubic-bezier(.18,1,.21,1)
+}
+#services_about #about-inner .text .about-btn:hover h5{
+    color:#9f8f68
+}
+#services_about #about-inner .text .table{
+    width:100%;
+    height:972px;
+    display:table
+}
+#services_about #about-inner .text .table .table-cell{
+    width:100%;
+    height:972px;
+    display:table-cell;
+    vertical-align:middle;
+    padding:0 50px
+}
+#services_about #about-inner .text .table .table-cell h3{
+    color:#fff;
+    max-width:990px;
+    line-height:70px
+}
+#services_about #about-inner .text .table .table-cell h5,#process-capabilities h5,#process-integrated-approach h5,#services_grid h5,#process-process h5{
+    color:#D81B5C
+}
+#what_we_do h5{
+    color:#8cc63f
+}
+#services_about h5,#process-process p{
+    color:#898989
+}
+#services_about h3,#process-capabilities h3,#process-culture h3,#process-integrated-approach h3,#process-integrated-approach p,#process-mindset h3,#process-mindset h5,#what_we_do h3{
+    color:#fff
+}
+#services_about h3{
+    max-width:850px;
+    margin:auto;
+    left:0;
+    right:0
+}
+/******** What We Do **********/
+#what_we_do{
+    margin:0;
+    width:100%;
+    padding:80px 10%;
+    position:relative;
+    z-index:2;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -moz-box-pack:center;
+    box-pack:center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    -ms-justify-content:center;
+    -o-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    box-align:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    align-items:center;
+    -ms-flex-align:center
+}
+#what_we_do .content{
+    padding:0;
+    margin:0
+}
+#what_we_do p{
+    font-size:24px;
+    line-height:42px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+    color:#232323
+}
+#what_we_do span.diamond{
+    height:18px;
+    width:18px;
+    position:absolute;
+    bottom:-9px;
+    margin:auto;
+    left:0;
+    right:0;
+    background-color:#9f8f68;
+    -webkit-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg)
+}
+.underline {
+    border-bottom: 1px solid;
+}
+.what_we_do_electrical p{
+	max-width: none !important;
+}
+/*********** Sorbet Grid **********/
+#services_grid,#services_grid .content{
+    padding:0;
+    margin:0;
+    width:100%
+}
+#services_grid,#services_grid .offerings-grid:nth-child(odd){
+    background-color:#fff
+}
+#services_grid{
+    display:block;
+    position:relative;
+    z-index:2;
+    border-top:1px solid #f1f1f1
+}
+#services_grid h3{
+    color:#232323;
+    margin-bottom:10px
+}
+#services_grid p:not(.title_grid){
+    color:#8cc63f;
+    font-size:11px;
+    text-transform:uppercase;
+    letter-spacing:3px;
+    font-weight:400
+}
+.title_grid {
+    font-size: 35px;
+    color: #000;
+    margin-bottom: 15px;
+}
+#services_grid .icon{
+    margin:auto auto 12px;
+    max-width:60px
+}
+#services_grid .offerings-grid{
+    float:left;
+    width:33.33%;
+    vertical-align:top;
+    height:auto;
+    padding: 40px 60px;
+    opacity:0;
+    -webkit-transition:.5s cubic-bezier(.215,.61,.355,1);
+    -moz-transition:.5s cubic-bezier(.215,.61,.355,1);
+    transition:.5s cubic-bezier(.215,.61,.355,1);
+}
+#services_grid .offerings-grid:nth-child(even){
+    background-color:rgba(245,245,245,.43)
+}
+#services_grid.srbt-inview .offerings-grid{
+    opacity:1;
+    -webkit-transform:scale(1);
+    -moz-transform:scale(1);
+    -ms-transform:scale(1);
+    -o-transform:scale(1);
+    transform:scale(1)
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(1){
+    -webkit-transition-delay:.2s;
+    -moz-transition-delay:.2s;
+    transition-delay:.2s
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(2){
+    -webkit-transition-delay:.4s;
+    -moz-transition-delay:.4s;
+    transition-delay:.4s
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(3){
+    -webkit-transition-delay:.6s;
+    -moz-transition-delay:.6s;
+    transition-delay:.6s
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(4){
+    -webkit-transition-delay:.8s;
+    -moz-transition-delay:.8s;
+    transition-delay:.8s
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(5){
+    -webkit-transition-delay:1s;
+    -moz-transition-delay:1s;
+    transition-delay:1s
+}
+#services_grid.srbt-inview .offerings-grid:nth-child(6){
+    -webkit-transition-delay:1.2s;
+    -moz-transition-delay:1.2s;
+    transition-delay:1.2s
+}
+#process-integrated-approach{
+    margin:0;
+    width:100%;
+    padding:40px 10%;
+    position:relative;
+    z-index:1;
+    background-color:#000000;
+    display:-webkit-box;
+    display:-moz-box;
+    display:box;
+    display:-webkit-flex;
+    display:-moz-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-pack:center;
+    -moz-box-pack:center;
+    box-pack:center;
+    -webkit-justify-content:center;
+    -moz-justify-content:center;
+    -ms-justify-content:center;
+    -o-justify-content:center;
+    justify-content:center;
+    -ms-flex-pack:center;
+    -webkit-box-align:center;
+    -moz-box-align:center;
+    box-align:center;
+    -webkit-align-items:center;
+    -moz-align-items:center;
+    -ms-align-items:center;
+    -o-align-items:center;
+    align-items:center;
+    -ms-flex-align:center
+}
+#process-integrated-approach .content{
+    padding:0;
+    margin:0
+}
+#process-integrated-approach p{
+    font-size:24px;
+    line-height:42px;
+    margin-left:auto;
+    margin-right:auto
+}
+
+
+.offerings-grid .home-icon{
+	height: 22px;
+	
+}
+.offerings-grid .home-icon .icon_home {
+	fill: #fff
+}
+.offerings-grid .home-icon .cls-1, .offerings-grid .home-icon .cls-2 {
+	-webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.offerings-grid:hover .home-icon{
+	transform: scale(5);
+}
+.offerings-grid:hover .cls-1{fill:#8dc640;}
+.offerings-grid:hover .cls-2{fill:#d91a5d;}
+.offerings-grid .home-icon {
+    transform: scale(2);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+/************ Process Box *************/
+#process-process,#process-process .step{
+    display:block;
+    width:100%;
+    position:relative;
+	float: left;
+}
+#process-process{
+    margin:0;
+    padding:40px 10%;
+    background-color:#000;
+    z-index:2
+}
+#process-process .content{
+    padding:0;
+    width:100%
+}
+#process-process h2 {
+    color: #fff;
+    font-size: 50px;
+    line-height: 50px;
+}
+#process-process .step{
+    border-top:1px solid #444
+}
+#process-process .step .title{
+    float: left;
+    width:40%;
+    vertical-align:top;
+    height:245px;
+    text-align:left;
+    padding:50px 0
+}
+#process-process .step .description{
+    float: left;
+    width:60%;
+    vertical-align:top;
+    height:245px;
+    text-align:left;
+    padding:75px 0
+}
+#process-process .step:first-child{
+    border-top:0
+}
+#process-process .step:nth-child(5){
+    border-bottom:1px solid #e0e1e2
+}
+#process-process p, #process-process a{
+    color:#fff
+}
+
+
+/********** Responsive ***********/
+@media (max-width:1680px){
+    #services_main #services_main-slider h1{
+        margin-bottom:60px
+    }
+	#services_about #about-inner{
+        height:872px
+    }
+    #services_about #about-inner .photo,#services_about #about-inner .solid{
+        height:822px
+    }
+    #services_about #about-inner .text,#services_about #about-inner .text .table,#services_about #about-inner .text .table .table-cell{
+        height:872px
+    }
+	#what_we_do p{
+        font-size:16px;
+        line-height:30px
+    }
+	
+}
+
+@media (max-width:1440px){
+    #services_main .bx-pager-custom{
+        left:0
+    }
+    #services_main .bx-control-bar{
+        width:60px;
+        height:60px
+    }
+	#services_main .bx-control-btn{
+        height:60px
+    }
+	#services_main .bx-control-btn a{
+        width:60px;
+        height:60px
+    }
+	#services_about #about-inner .text .table .table-cell h3{
+        line-height:55px
+    }
+	#what_we_do p{
+        font-size:18px;
+        line-height:32px
+    }
+	#services_grid .offerings-grid{
+        padding:40px 60px;
+        height:auto
+    }
+	#process-integrated-approach{
+        height:auto
+    }
+    #process-integrated-approach p{
+        font-size:18px;
+        line-height:32px
+    }
+	#srbt-choose{
+        padding-bottom:100px
+    }
+	
+	
+}
+
+@media (max-width:1280px){
+    #services_main #services_main-slider h1{
+        margin-bottom:40px
+    }
+	#services_main #services_main-slider .svg-wrapper{
+        margin-bottom:100px
+    }
+	#services_about #about-inner .text .table .table-cell h3{
+        line-height:45px
+    }
+	#services_grid .offerings-grid{
+        padding:40px
+    }
+	#srbt-choose{
+        padding-bottom:80px
+    }
+	
+}
+
+@media (max-width:1100px){
+    #services_about{
+        padding:0 0 200px
+    }
+	#services_about #about-inner{
+        height:772px
+    }
+    #services_about #about-inner .photo,#services_about #about-inner .solid{
+        height:722px
+    }
+    #services_about #about-inner .text,#services_about #about-inner .text .table,#services_about #about-inner .text .table .table-cell{
+        height:772px
+    }
+	#services_grid .offerings-grid{
+        padding:40px;
+        width:100%
+    }
+    #process-capabilities{
+        background-image:none!important
+    }
+	#process-process h2 {
+		font-size: 39px;
+	}
+}
+
+@media (max-width:1024px){
+    #services_about #about-inner .text .table .table-cell h3{
+        line-height:35px
+    }
+	#what_we_do, #process-integrated-approach {
+		height: auto;
+		padding: 50px 5%;
+	}
+}
+
+
+@media (max-width:990px){
+    #services_about #about-inner{
+        height:672px
+    }
+    #services_about #about-inner .photo,#services_about #about-inner .solid{
+        height:622px
+    }
+    #services_about #about-inner .text,#services_about #about-inner .text .table,#services_about #about-inner .text .table .table-cell{
+        height:672px
+    }
+    #services_about{
+        padding:0 0 60px
+    }
+    #services_about .content{
+        width:100%
+    }
+	#process-process .step .title{
+        padding:50px 0 0;
+        width:100%;
+        height:auto
+    }
+    #process-process .step .title h2{
+        margin:0
+    }
+	#process-process .step .description{
+        width:100%;
+        height:auto;
+        padding:20px 0 50px
+    }
+}
+
+@media (max-width:767px){
+	#services_main #services_main-slider .svg-wrapper{
+        margin-bottom:150px
+    }
+	#services_main .bx-pager-custom .bx-pager-item:nth-child(2n+1){
+        margin-left:0
+    }
+    #services_about #about-inner .text .table .table-cell h3{
+        line-height:35px
+    }
+	#services_about #about-inner .text .table .table-cell h3 {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	#process-mindset,#what_we_do{
+        background-size:500%
+    }
+	#services_grid .icon{
+        max-width:50px;
+        margin-bottom:20px
+    }
+    #services_grid .offerings-grid{
+        padding:50px 10%;
+        width:100%;
+        height:400px
+    }
+	#process-integrated-approach{
+		display: none
+    }
+    #process-integrated-approach p{
+        font-size:16px;
+        line-height:30px
+    }
+	#srbt-choose{
+        padding-bottom:50px;
+        height:auto;
+        min-height:0
+    }
+	#srbt-choose.srbt-inview .srbt-geometry{
+        -webkit-transition:none;
+        -moz-transition:none;
+        transition:none
+    }
+	#what_we_do .content, #process-integrated-approach .content {
+		width: 100%;
+	}
+	#srbt-choose .srbt-disco-deployment, #srbt-choose .srbt-disco-discover {
+		white-space: normal;
+		max-width: 100%;
+	}
+	#srbt-choose .srbt-disco-deployment img, #srbt-choose .srbt-disco-discover img {
+		width: 20%;
+	}
+	body.srbt-loaded #about-inner {
+		margin-top: 0;
+	}
+	body.srbt-loaded .down-button {
+		-webkit-transform: translateY(-0);
+		-moz-transform: translateY(-0);
+		-ms-transform: translateY(-0);
+		-o-transform: translateY(-0);
+		transform: translateY(-0);
+	}
+	#srbt-choose h3 {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	#process-process h2 {
+		font-size: 30px;
+		line-height: 33px;
+	}
+	#services_grid .offerings-grid {
+		width: 100%;
+	}
+	.offerings-grid .home-icon{
+		transform: scale(4);
+	}
+	.offerings-grid:hover .home-icon{
+		transform: scale(2);
+	}
+	.offerings-grid .cls-1{fill:#8dc640;}
+	.offerings-grid .cls-2{fill:#d91a5d;}
+	
+}
+
+@media (min-width: 661px) and (max-width:767px) {
+	#underslider_section {
+		height: 250px;
+	}
+	
+}
