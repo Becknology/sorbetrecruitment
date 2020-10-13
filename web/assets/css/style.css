@@ -3814,7 +3814,8 @@ body.srbt-loaded .down-button {
     padding: 40px 15px;
   }
   #home-work .content .work-grid .grid-content {
-    background: transparent !important;
+    /* background: transparent !important; */
+    background: rgba(35, 35, 35, 0.7)!important;
   }
   #home-work .content .work-grid .grid-content h3 {
     -moz-opacity: 1;
@@ -3840,7 +3841,7 @@ body.srbt-loaded .down-button {
     .work-wrapper:last-child
     .work-grid:last-child
     .grid-content {
-    opacity: 0 !important;
+    /* opacity: 0 !important; */
   }
   .video_overlay {
     background: url("../img/about bg.png");
