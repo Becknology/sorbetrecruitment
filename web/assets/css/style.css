@@ -1644,6 +1644,7 @@ a.svg-btn.svg-btn-filled svg .texts > path {
   padding: 0;
 }
 #left_logo .white_logo {
+  background-color: black;
   max-width: 300px;
   position: absolute;
   right: 300px;
@@ -3815,7 +3816,7 @@ body.srbt-loaded .down-button {
   }
   #home-work .content .work-grid .grid-content {
     /* background: transparent !important; */
-    background: rgba(35, 35, 35, 0.7)!important;
+    background: rgba(35, 35, 35, 0.7) !important;
   }
   #home-work .content .work-grid .grid-content h3 {
     -moz-opacity: 1;
