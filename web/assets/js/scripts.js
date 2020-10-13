@@ -8094,8 +8094,16 @@ window.SocialShareKit = SocialShareKit,
             i < 330 && (i = n <= 330 ? 330 : 960), n <= 1440 ? e = 300 : n <= 1100 ? e = 200 : n <= 330 ? e = 0 : n > 1440 && (e = 400);
             var r = i + e;
 			var height = d.height();
-			if(d.width() > 1024){
+            var video = document.getElementById("intro-video");
+            var source = document.getElementById("intro-source");
+
+            if (d.width() > 1024) {
 				height = d.height() * 1.154;
+                if (source.getAttribute('data-src') !== source.getAttribute('src')) {
+                    source.setAttribute('src', source.getAttribute('data-src'));
+                    video.autoplay = true;
+                    video.load();
+                }
 			}
             t(".fullscreen-header").css({ height: height })
         }
