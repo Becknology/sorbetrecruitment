@@ -152,8 +152,8 @@
 					<span class="link-overlay video_overlay fancybox" href="https://www.youtube.com/embed/NolSyWrdqPc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=pOC-SYm4yQ4"></span>
 					<div class="video-container">
 						<!-- <video src="assets/videos/sorbet.mp4" autoplay muted></video> -->
-						<video class='home-video' muted loop volume="0" autoplay preload="none">
-							<source id="home-video" src="assets/videos/intro.mp4" type="video/mp4">
+						<video class='home-video' id='intro-video' muted loop volume="0">
+							<source id="intro-source" data-src='assets/videos/intro.mp4' type="video/mp4">
 						</video>
 						<!-- <iframe id="home-video" src="https://www.youtube.com/embed/NolSyWrdqPc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=NolSyWrdqPc" frameborder="0" allowfullscreen></iframe> -->
 					</div>
@@ -411,7 +411,14 @@
 	<script type="text/javascript" src="assets/js/fancybox/jquery.fancybox.min.js"></script>
 	<script type="text/javascript" src="assets/js/timepicker/timepicki.js"></script>
 	<script>
-	jQuery(document).ready(function(){
+	if(window.innerWidth > 1024) {
+		var video = document.getElementById("intro-video");
+		var source = document.getElementById("intro-source");
+		source.setAttribute('src', source.getAttribute('data-src'));
+		video.autoplay = true;
+		video.load(); 
+	}
+jQuery(document).ready(function(){
 		$('.fancybox').fancybox({
 			openEffect  : 'none',
 			closeEffect : 'none',

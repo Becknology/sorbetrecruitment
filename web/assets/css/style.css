@@ -494,14 +494,14 @@ ul.bxslider {
 .home-video {
   position: absolute;
   height: 100%;
-  /* width: 100%; */
-  /* left: -30%; */
-  /* left: 0; */
   transform: translateX(-50%);
-  /* top: 100px; */
 }
 
 @media screen and (min-width: 1025px) {
+  .home_top {
+    min-height: calc(100vh * 1.154);
+  }
+
   .vert-center div {
     transform: translateY(-100%);
   }
