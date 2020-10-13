@@ -497,13 +497,22 @@ ul.bxslider {
   transform: translateX(-50%);
 }
 
+.vert-center h3 {
+  display: none;
+  color: white;
+}
+
 @media screen and (min-width: 1025px) {
   .home_top {
-    min-height: calc(100vh * 1.154);
+    /* min-height: calc(100vh * 1.154); */
+  }
+
+  .vert-center h3 {
+    display: block;
   }
 
   .vert-center div {
-    transform: translateY(-100%);
+    /* transform: translateY(-100%); */
   }
 }
 
