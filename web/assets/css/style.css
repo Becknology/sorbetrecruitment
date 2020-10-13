@@ -1198,6 +1198,31 @@ a.svg-btn.svg-btn-filled svg .texts > path {
   filter: alpha(opacity=100);
   position: relative;
 }
+
+@media screen and (min-width: 1025px) {
+  .nav-image.news {
+    background-image: url("../img/news.jpg");
+  }
+  .nav-image.contact_bg {
+    background-image: url("../img/contact.jpg");
+  }
+  .nav-image.why_sorbet {
+    background-image: url("../img/sorbet-manchester-electricians-contractors.jpg");
+  }
+  .nav-image.sorbet_services {
+    background-image: url("../img/sorbet-vacancies-contractor.jpg");
+  }
+  .nav-image.about_sorbet {
+    background-image: url("../img/about_sorbet.jpg");
+  }
+  .nav-image.sorbet_vacancies {
+    background-image: url("../img/sorbet_vacancies.jpg");
+  }
+  .nav-image.sorbet_contractors {
+    background-image: url("../img/sorbet_contractors.jpg");
+  }
+}
+
 #main_navigation.active #nav_bg .nav-image {
   -webkit-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 450ms;
   -moz-transition: all cubic-bezier(0.25, 0.46, 0.45, 0.94) 450ms;
