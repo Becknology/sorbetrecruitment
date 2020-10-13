@@ -3426,7 +3426,8 @@ body.srbt-loaded .down-button {
     padding: 75px 0;
   }
   #main_navigation .menu-container .main_menu .menu-option span {
-    bottom: 25px;
+    /* bottom: 25px; */
+    bottom: 0;
   }
   #main_navigation .menu-container .nav-info {
     padding: 160px 120px;
@@ -3530,7 +3531,8 @@ body.srbt-loaded .down-button {
     height: 52px;
   }
   #main_navigation .menu-container .main_menu .menu-option span {
-    bottom: 20px;
+    /* bottom: 20px; */
+    bottom: 0;
   }
   #main_navigation .menu-container .nav-info {
     padding: 160px 0;
@@ -3691,7 +3693,8 @@ body.srbt-loaded .down-button {
     height: 55px;
   }
   #main_navigation .menu-container .main_menu .menu-option span {
-    bottom: 8px;
+    /* bottom: 8px; */
+    bottom: 0;
   }
   #mobile-logo {
     width: 290px;
@@ -4163,7 +4166,8 @@ body.srbt-loaded .down-button {
     margin-bottom: 30px;
   }
   #main_navigation .menu-container .main_menu .menu-option span {
-    bottom: 8px;
+    /* bottom: 8px; */
+    bottom: 0;
   }
   #main_navigation.active #menu_btn {
     left: auto;
