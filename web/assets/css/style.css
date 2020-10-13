@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: Mangalb;
   src: url(../../assets/font/mangalb.ttf);
-}
+} */
 @font-face {
   font-family: Graphik-Regular;
   src: url(../../assets/font/Graphik-Regular.otf);
@@ -399,7 +399,7 @@ ul.bxslider {
 }
 .srbt-wrapper .srbt-prev {
   left: 10px;
-  background: url(images/controls.png?auto=formatcompress) 0 -32px no-repeat;
+  /* background: url(images/controls.png?auto=formatcompress) 0 -32px no-repeat; */
 }
 .srbt-wrapper .srbt-prev:focus,
 .srbt-wrapper .srbt-prev:hover {
@@ -407,7 +407,7 @@ ul.bxslider {
 }
 .srbt-wrapper .srbt-next {
   right: 10px;
-  background: url(images/controls.png?auto=formatcompress) -43px -32px no-repeat;
+  /* background: url(images/controls.png?auto=formatcompress) -43px -32px no-repeat; */
 }
 .srbt-wrapper .srbt-next:focus,
 .srbt-wrapper .srbt-next:hover {
@@ -435,7 +435,7 @@ ul.bxslider {
   width: 10px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png?auto=formatcompress) -86px -11px no-repeat;
+  /* background: url(images/controls.png?auto=formatcompress) -86px -11px no-repeat; */
   margin: 0 3px;
 }
 .srbt-wrapper .srbt-controls-auto .srbt-start.active,
@@ -449,7 +449,7 @@ ul.bxslider {
   width: 9px;
   height: 11px;
   outline: 0;
-  background: url(images/controls.png?auto=formatcompress) -86px -44px no-repeat;
+  /* background: url(images/controls.png?auto=formatcompress) -86px -44px no-repeat; */
   margin: 0 3px;
 }
 .srbt-wrapper .srbt-controls-auto .srbt-stop.active,
@@ -490,6 +490,23 @@ ul.bxslider {
   background: url(../../assets/img/bx_loader.gif?auto=formatcompress) center
     center no-repeat #fff;
 }
+
+.home-video {
+  position: absolute;
+  height: 100%;
+  /* width: 100%; */
+  /* left: -30%; */
+  /* left: 0; */
+  transform: translateX(-50%);
+  /* top: 100px; */
+}
+
+@media screen and (min-width: 1025px) {
+  .vert-center div {
+    transform: translateY(-100%);
+  }
+}
+
 .slider_home > .srbt-slide-video.active-slide:before {
   -webkit-transition: 23.5s linear;
   -moz-transition: 23.5s linear;

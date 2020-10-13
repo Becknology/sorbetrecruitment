@@ -72,7 +72,7 @@
 				<div class="table">
 				  <div class="table-cell">
 					<div class="main_menu">
-						<a href="index.html" id="mobile-logo"><img src="assets/img/mainlogoblack.png"> </a>
+						<a href="index.html" id="mobile-logo"><img src="assets/img/mainlogoblack.svg"> </a>
 						<a href="index.html" id="home-link">
 							<svg class="home-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><title>icons</title><g id="Layer_1" data-name="Layer 1"><polygon class="cls-1" points="149.94 367.73 183.91 367.73 183.91 216.26 149.94 250.24 149.94 367.73"/><polygon class="cls-1" points="328.09 367.73 362.06 367.73 362.06 250.24 328.09 216.26 328.09 367.73"/><path class="cls-2" d="M149.58,226.5,255.93,120.15l.07-.07.07.07L362.42,226.5a17,17,0,0,0,24,0l0,0a17,17,0,0,0,0-24L268.53,84.56a20,20,0,0,0-25.06,0L125.56,202.47a17,17,0,0,0,0,24l0,0a17,17,0,0,0,24,0Z"/><path class="cls-1" d="M256,284.5a29.7,29.7,0,0,0-29.7,29.7v53.7h59.4V314.2A29.7,29.7,0,0,0,256,284.5Zm24.83,51.06a4.1,4.1,0,1,1-4.1-4.09A4.11,4.11,0,0,1,280.83,335.56Z"/></g></svg>
 						</a>
@@ -134,9 +134,9 @@
 			</div>
 		</nav>
 		<section id="first_section" class="home_top main_slider">
-			<div class="srbt-next-preview"></div>
-			<div class="srbt-prev-preview"></div>
-			<ul id="main_top_slider" class="fullscreen-header slider_top">
+			<!-- <div class="srbt-next-preview"></div>
+			<div class="srbt-prev-preview"></div> -->
+			<!-- <ul id="main_top_slider" class="fullscreen-header slider_top"> -->
 				<li style="background-image: url('assets/img/home-mobile-slide.png')" class="srbt-slide-video fullscreen-header">
 					<div class="slider-content fullscreen active fancybox" href="https://www.youtube.com/watch?v=NolSyWrdqPc">
 						<div class="vert-center">
@@ -151,11 +151,15 @@
 					</div>
 					<span class="link-overlay video_overlay fancybox" href="https://www.youtube.com/embed/NolSyWrdqPc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=pOC-SYm4yQ4"></span>
 					<div class="video-container">
-						<iframe id="home-video" src="https://www.youtube.com/embed/NolSyWrdqPc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=NolSyWrdqPc" frameborder="0" allowfullscreen></iframe>
+						<!-- <video src="assets/videos/sorbet.mp4" autoplay muted></video> -->
+						<video class='home-video' muted loop volume="0" autoplay preload="none">
+							<source id="home-video" src="assets/videos/intro.mp4" type="video/mp4">
+						</video>
+						<!-- <iframe id="home-video" src="https://www.youtube.com/embed/NolSyWrdqPc?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=NolSyWrdqPc" frameborder="0" allowfullscreen></iframe> -->
 					</div>
 					<img src="assets/img/slider-transparent.png">
 				</li>
-				<li style="background-image: url('assets/img/sorbet-manchester-electricians-case.jpg')" class="fullscreen-header" href="manchester_airport_case_study.html">
+				<!-- <li style="background-image: url('assets/img/sorbet-manchester-electricians-case.jpg')" class="fullscreen-header" href="manchester_airport_case_study.html">
 					<div class="slider-content fullscreen active" href="manchester_airport_case_study.html">
 						<div class="vert-center" data-scrollax="properties: {translateY: '20%'}" >
 							<h5>Case study of a Sorbet managed site</h5>
@@ -182,8 +186,8 @@
 						<iframe id="home-video" src="https://www.youtube.com/embed/pOC-SYm4yQ4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=pOC-SYm4yQ4" frameborder="0" allowfullscreen></iframe>
 					</div>
 					<img src="assets/img/slider-transparent.png">
-				</li>
-				<li style="background-image: url('assets/img/home-pns-slide.jpg')" class="fullscreen-header">
+				</li> -->
+				<!-- <li style="background-image: url('assets/img/home-pns-slide.jpg')" class="fullscreen-header">
 					<div class="slider-content fullscreen active">
 						<div class="vert-center" data-scrollax="properties: {translateY: '20%'}">
 							<h5>Our services</h5>
@@ -206,10 +210,10 @@
 						</div>
 					</div>
 					<img src="assets/img/slider-transparent.png">
-				</li>
-			</ul>
-			<div class="srbt-next-control srbt-control-btn"></div>
-			<div class="srbt-prev-control srbt-control-btn"></div>
+				</li> -->
+			<!-- </ul> -->
+			<!-- <div class="srbt-next-control srbt-control-btn"></div>
+			<div class="srbt-prev-control srbt-control-btn"></div> -->
 			<!-- HERO SLIDER PAGNINATION -->
 			<div class="srbt-pager srbt-default-pager srbt-pager-custom load-leftovers hero-pager">
 				<div class="srbt-pager-item"><a href="#" data-slide-index="0" class="srbt-pager-link"><span></span></a></div>
@@ -247,7 +251,7 @@
 				</div>
 			</div>
 		</section>
-		<section id="underslider_section" class="dest srbt-scrollview srbt-anim-opacity" page-slide="3" style="background-image: url('assets/img/Home-top.jpg')">
+		<section id="underslider_section" class="dest srbt-scrollview srbt-anim-opacity" page-slide="3" style="background-image: url('assets/img/home--top.jpg')">
 			<div class="content lg destup" page-slide="3">
 				<h5></h5>
 				<h3>Partnering with the right agency for you.</h3>
@@ -298,9 +302,9 @@
 					</div>
 					<div class="work-grid half">
 						<div class="work-inner" style="background-image: url('assets/img/work3.jpg')">
-							<div class="video-container video-container-2">
-								<iframe id="home-video" src="https://www.youtube.com/embed/pOC-SYm4yQ4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=pOC-SYm4yQ4" frameborder="0" allowfullscreen></iframe>
-							</div>
+							<!-- <div class="video-container video-container-2"> -->
+								<!-- <iframe id="home-video" src="https://www.youtube.com/embed/pOC-SYm4yQ4?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=pOC-SYm4yQ4" frameborder="0" allowfullscreen></iframe> -->
+							<!-- </div> -->
 							<span href="https://www.youtube.com/watch?v=pOC-SYm4yQ4" class="link-overlay fancybox"></span>
 							<div class="grid-content">
 								<div class="table">
@@ -316,9 +320,9 @@
 					</div>
 					<div class="work-grid half">
 						<div class="work-inner" style="background-image: url('assets/img/work4.jpg')">
-							<div class="video-container video-container-2">
-								<iframe id="home-video" src="https://www.youtube.com/embed/W1xxaxU9yMM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W1xxaxU9yMM" frameborder="0" allowfullscreen></iframe>
-							</div>
+							<!-- <div class="video-container video-container-2"> -->
+								<!-- <iframe id="home-video" src="https://www.youtube.com/embed/W1xxaxU9yMM?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&mute=1&playlist=W1xxaxU9yMM" frameborder="0" allowfullscreen></iframe> -->
+							<!-- </div> -->
 							<span href="https://www.youtube.com/watch?v=W1xxaxU9yMM" class="link-overlay fancybox"></span>
 							<div class="grid-content">
 								<div class="table">
@@ -335,7 +339,9 @@
 				</div>
 		   </div>
 		</section>
-		<section id="testimonial" class="srbt-scrollview srbt-anim-opacity background-color-fade" style="background-image: url('assets/img/sorbet_bg.png')">
+		<section id="testimonial" class="srbt-scrollview srbt-anim-opacity background-color-fade" 
+		>
+		<!-- style="background-image: url('assets/img/sorbet_bg.png')" -->
 			<div class="content lg">
 				<ul id="testimonial_slider">
 					<li>
