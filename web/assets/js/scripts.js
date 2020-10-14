@@ -8095,12 +8095,14 @@ window.SocialShareKit = SocialShareKit,
             var r = i + e;
 			var height = d.height();
             var video = document.getElementById("intro-video");
-            var source = document.getElementById("intro-source");
+            var source = document.getElementById("intro-webm");
+            var sourceM = document.getElementById("intro-mp4");
 
             if (d.width() > 1024) {
 				height = d.height() * 1.154;
-                if (source.getAttribute('data-src') !== source.getAttribute('src')) {
+                if ((source.getAttribute('data-src') !== source.getAttribute('src')) || sourceM.getAttribute('data-src') !== sourceM.getAttribute('src')) {
                     source.setAttribute('src', source.getAttribute('data-src'));
+                    sourceM.setAttribute('src', sourceM.getAttribute('data-src'));
                     video.autoplay = true;
                     video.load();
                 }
