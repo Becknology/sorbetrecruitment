@@ -242,7 +242,7 @@ body.srbt-loaded #careers-hero .down-button {
   margin: auto;
   left: 0;
   right: 0;
-  background: url(../img/logo.png) no-repeat;
+  background: url(../img/logo.svg) no-repeat;
   background-size: cover;
   z-index: 2;
 }
